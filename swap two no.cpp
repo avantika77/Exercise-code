@@ -23,3 +23,10 @@ int main()
 
     return 0;
 }
+
+#OUTPUT#----------------------------------------------------------------------------------------------------------------------
+Enter the first number: 34
+Enter the second number: 76
+After swapping:
+First number: 76
+Second number: 34
