@@ -23,3 +23,25 @@ public class Main {
 		}
 	}
 }
+//OUTPUT//----------------------------------------------------------------------------------------------
+enter a name :
+AVANTIKA
+your name AVANTIKA
+enter value of a:
+55
+enter value of b:
+68
+Sum of a and b:
+123
+Enter number: 8
+8 * 1 = 8
+8 * 2 = 16
+8 * 3 = 24
+8 * 4 = 32
+8 * 5 = 40
+8 * 6 = 48
+8 * 7 = 56
+8 * 8 = 64
+8 * 9 = 72
+8 * 10 = 80
+
