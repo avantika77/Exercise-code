@@ -1,4 +1,4 @@
-#include <stdio.h>
+-#include <stdio.h>
 
 int main() {
     int n;
@@ -16,7 +16,7 @@ int main() {
 
     return 0;
 }
-//OUTPUT//------------------------------------------------------------
+//OUTPUT//---------------------------------------------------------------------------------------------------------------------
 Enter the number of rows: 7
 * 
 * * 
@@ -25,3 +25,10 @@ Enter the number of rows: 7
 * * * * * 
 * * * * * *
 * * * * * * *
+
+//in python//-------------------------------------------------------------------------------------------------------------------
+n = int(input("Enter the number of rows: "))
+for i in range(1, n + 1):
+    for j in range(1, i + 1):
+        print("*", end=" ")  #end=" " to print space instead of newline
+    print()  
