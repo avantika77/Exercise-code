@@ -42,3 +42,6 @@ int main()
     z = x / y; // division
     std::cout << "The value of z is: " << z << '\n';
 }
+"The integer division, in our example, results in a value of 0. 
+"It is because the result of the integer division where both operands are integers is truncated towards zeros. In the expression x / y, x and y are operands and / is the operator."
+"If we want a floating-point result, we need to use the type double and make sure at least one of the division operands is also of type double:"
