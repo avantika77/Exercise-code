@@ -23,4 +23,11 @@ int main()
     int y = 789;          // define a new integer variable y
     y = x;                // assing a value of x to it
 }
-
+#Arithmetic Operators -----------------------------------------------------------------------------------------
+#We can do arithmetic operations using arithmetic operators. Some of them are:
++ // addition
+- // subtraction
+* // multiplication
+/ // division
+% // modulo
+    -----------------------------------------------------------------------------------------
