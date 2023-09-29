@@ -62,5 +62,12 @@ int main()
     std::cout << "The value of z is: " << z << '\n';
 }
 and the result would be the same.   #concentarte on declaration and insealization
+--------------------------------------------------------------------------------------------------------------------------------------
 #Compound Assignment Operators
 operators allow us to perform an arithmetic operation and assign a result with one operator:
++= // compound addition
+-= // compound subtraction
+*= // compound multiplication
+/= // compound division
+%= // compound modulo
+
