@@ -86,5 +86,14 @@ Increment/decrement operators increment/decrement the value of the object. The o
 x++ // post-increment operator
 --x // pre-decrement operator
 x-- // post-decrement operator
-
+#include <iostream>
+int main()
+{
+    int x = 123;
+    x++;    // add 1 to the value of x
+    ++x;    // add 1 to the value of x
+    --x;    // decrement the value of x by 1
+    x--;    // decrement the value of x by 1
+    std::cout << "The value of x is: " << x;
+}
     
