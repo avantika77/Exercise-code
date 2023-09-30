@@ -80,3 +80,11 @@ int main()
     x /= 3;     // the same as x = x / 3
     std::cout << "The value of x is: " << x;
 }
+#Increment/Decrement Operators
+Increment/decrement operators increment/decrement the value of the object. The operators are:
+++x // pre-increment operator
+x++ // post-increment operator
+--x // pre-decrement operator
+x-- // post-decrement operator
+
+    
