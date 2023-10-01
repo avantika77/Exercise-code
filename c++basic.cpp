@@ -106,7 +106,15 @@ The value of the object is the same, no matter what version of the operator was 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 #Standard Input
-    
+#We can think of the standard input as our keyboard:-
+#include <iostream>
+int main()
+{
+    std::cout << "Please enter a number and press enter: ";
+    int x = 0;
+    std::cin >> x;
+    std::cout << "You entered: " << x;
+}
 
 
 
