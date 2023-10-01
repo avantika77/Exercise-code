@@ -80,6 +80,7 @@ int main()
     x /= 3;     // the same as x = x / 3
     std::cout << "The value of x is: " << x;
 }
+
 #Increment/Decrement Operators
 Increment/decrement operators increment/decrement the value of the object. The operators are:
 ++x // pre-increment operator
@@ -96,4 +97,32 @@ int main()
     x--;    // decrement the value of x by 1 --------------------------------123
     std::cout << "The value of x is: " << x; -------------------------------- 123
 }
+🔸🔸HOW Increment/Decrement Operators WORKS🔸🔸🤔❓❓❓
+Both pre-increment and post-increment operators add 1 to the value of our object, and both pre-decrement and post-decrement operators subtract one from the value of our object. 
+The difference between the two, apart from the implementation mechanism, is that with the pre-increment operator, a value of 1 is added first. 
+Then the object is evaluated/accessed in expression. With the post-increment, the object is evaluated/accessed first, and after that, the value of 1 is added.
+To the next statement that follows, it does not make a difference.
+The value of the object is the same, no matter what version of the operator was used. The only difference is the timing in the expression where it is used.
+---------------------------------------------------------------------------------------------------------------------------------------
+
+#Standard Input
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
