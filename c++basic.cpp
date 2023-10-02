@@ -115,7 +115,12 @@ int main()
     std::cin >> x;
     std::cout << "You entered: " << x;
 }
-
+🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸
+The std::cin is the standard input stream, and it uses the >> operator to extract what has been read into our variable.
+The std::cin >> x; statement means: read from a standard input into a x variable.
+The cin object resides inside the std namespace. So, std::cout << is used for outputting data (to a screen) and std::cin >> is used for inputting the data (from the keyboard).
+We can accept multiple values from the standard input by separating them with multiple >> operators:
+🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸
 
 
 
