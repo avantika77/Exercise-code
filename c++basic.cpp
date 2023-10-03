@@ -130,7 +130,17 @@ int main()
     std::cin >> x >> y;
     std::cout << "You entered: " << x << " and " << y;
 }
-
+We can accept values of different types:
+#include <iostream>
+int main()
+{
+    std::cout << "Please enter a character, an integer and a double: ";
+    char c = 0;
+    int x = 0;
+    double d = 0.0;
+    std::cin >> c >> x >> d;
+    std::cout << "You entered: " << c << ", " << x << " and " << d;
+}
 
 
 
