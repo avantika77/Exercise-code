@@ -142,6 +142,7 @@ int main()
     std::cout << "You entered: " << c << ", " << x << " and " << d;
 }
 -----------------------------------------------------------------------------------------------------------------
+EXERCISE::--📝📝
 Write a program that accepts an integer number from the standard input and then print that number.
 #include <iostream>
 int main()
@@ -151,7 +152,16 @@ int main()
     std::cin >> x;
     std::cout << "You entered: " << x;
 }
-
+Write a program that accepts two integer numbers from the standard input and then prints them.
+#include <iostream>
+int main()
+{
+    std::cout << "Please enter two integer numbers: ";
+    int x;
+    int y;
+    std::cin >> x >> y;
+    std::cout << "You entered: " << x << " and " << y;
+}
 
 
 
