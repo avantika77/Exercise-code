@@ -162,7 +162,19 @@ int main()
     std::cin >> x >> y;
     std::cout << "You entered: " << x << " and " << y;
 }
-
+Multiple Inputs
+Write a program that accepts three values of type char, int, and double respectfully from the standard input. 
+Print out the values afterward.
+#include <iostream>
+int main()
+{
+    std::cout << "Please enter a char, an int and a double: ";
+    char c;
+    int x;
+    double d;
+    std::cin >> c >> x >> d;
+    std::cout << "You entered: " << c << ", " << x << ", and " << d;
+}
 
 
 
