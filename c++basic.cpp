@@ -175,8 +175,19 @@ int main()
     std::cin >> c >> x >> d;
     std::cout << "You entered: " << c << ", " << x << ", and " << d;
 }
-
-
+Inputs and Arithmetic Operations
+Write a program that accepts two int numbers, sums them up, and assigns a result to a third integer.
+Print out the result afterward.
+#include <iostream>
+int main()
+{
+    std::cout << "Please enter two integer numbers: ";
+    int x;
+    int y;
+    std::cin >> x >> y;
+    int z = x + y;
+    std::cout << "The result is: " << z;
+}
 
 
 
