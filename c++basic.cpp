@@ -162,7 +162,7 @@ int main()
     std::cin >> x >> y;
     std::cout << "You entered: " << x << " and " << y;
 }
-Multiple Inputs
+Multiple Inputs------------------------------------------
 Write a program that accepts three values of type char, int, and double respectfully from the standard input. 
 Print out the values afterward.
 #include <iostream>
@@ -175,7 +175,7 @@ int main()
     std::cin >> c >> x >> d;
     std::cout << "You entered: " << c << ", " << x << ", and " << d;
 }
-Inputs and Arithmetic Operations
+Inputs and Arithmetic Operations-------------------------
 Write a program that accepts two int numbers, sums them up, and assigns a result to a third integer.
 Print out the result afterward.
 #include <iostream>
