@@ -188,7 +188,16 @@ int main()
     int z = x + y;
     std::cout << "The result is: " << z;
 }
-
+Post-Increment and Compound Assignment
+Write a program that defines an int variable called x with a value of 123, post-increments that value in the next statement, and adds the value of 20 in the following statement using the compound assignment operator . Print out the value afterward.
+#include <iostream>
+int main()
+{
+    int x = 123;
+x++;
+    x += 20;
+    std::cout << "The result is: " << x;
+}
 
 
 
