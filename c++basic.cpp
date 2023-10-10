@@ -212,8 +212,12 @@ std::cout << "The result is: " << d << '\n';
     d = 9.0 / 2;
     std::cout << "The result is: " << d;
 }
-
-
-
+🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸
+Arrays
+Arrays are sequences of objects of the same type. We can declare an array of type char as follows:
+int main()
+{
+    char arr[5];
+}
 
     
