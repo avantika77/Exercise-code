@@ -198,10 +198,20 @@ x++;
     x += 20;
     std::cout << "The result is: " << x;
 }
-
-
-
-
+Integral and Floating-point Division-------------------------------------------
+Write a program that divides numbers 9 and 2 and assigns a result to an int and a double variable.
+Then modify one of the operands, so that is of type double and observe the different outcomes of a floating-point division where at least one of the operands is of type double.
+Print out the values afterward.
+#include <iostream>
+int main()
+{
+    int x = 9 / 2;
+    std::cout << "The result is: " << x << '\n';
+    double d = 9 / 2;
+std::cout << "The result is: " << d << '\n';
+    d = 9.0 / 2;
+    std::cout << "The result is: " << d;
+}
 
 
 
