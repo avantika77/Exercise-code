@@ -219,5 +219,9 @@ int main()
 {
     char arr[5];
 }
-
+To declare an array of type int which holds five elements, we would use:
+int main()
+{
+    int arr[5];
+}
     
