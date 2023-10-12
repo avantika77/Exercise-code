@@ -224,4 +224,14 @@ int main()
 {
     int arr[5];
 }
-    
+ To initialize an array, we can use the initialization list {}:
+int main()
+{
+    int arr[5] = { 10, 20, 30, 40, 50 };
+}
+#access individual array elements through a subscript [] operator and an index. The first array element has an index of 0, and we access it via:
+int main()
+{
+    int arr[5] = { 10, 20, 30, 40, 50 };
+    arr[0] = 100; // change the value of the first array element
+}
