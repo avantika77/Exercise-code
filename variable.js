@@ -13,4 +13,4 @@ const name={
     "number3": 5,
     "number4": true
 }
-console.log(name["number4"])
+console.log(name["number4"]) #printing output statement 
