@@ -246,3 +246,16 @@ int main()
     arr[4] = 500; // change the value of the last array element
 }
 [In modern C++, we should prefer the std::array and std::vector containers to raw arrays.]
+
+Pointers
+Another way to access an object in memory is through pointers. Each object in memory has its type and an address. 
+This allows us to access the object through a pointer.
+So, pointers are types that can hold the address of a particular object. 
+#include <iostream>
+int main()
+{
+    int x = 123;
+    int* p = &x;
+    *p = 456; // change the value of pointed-to object
+    std::cout << "The value of x is: " << x;
+}
