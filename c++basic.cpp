@@ -259,7 +259,7 @@ int main()
     *p = 456; // change the value of pointed-to object
     std::cout << "The value of x is: " << x;
 }
-References
+References---------------------------------
 A reference type is an alias to an existing object in memory. References must be initialized.
  int main()
 {
@@ -270,3 +270,20 @@ A reference type is an alias to an existing object in memory. References must be
     y = 789;
     // both x and y now hold the value of 789
 }   
+Introduction to Strings-----------------------
+To use the std::string type, we need to include the <string> header in our program:
+#include <string>
+int main()
+{
+    std::string s = "Hello World.";
+}
+To print out this string on the standard output we use:
+#include <iostream>
+#include <string>
+int main()
+{
+    std::string s = "Hello World.";
+    std::cout << s;
+}
+
+
