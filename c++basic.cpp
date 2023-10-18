@@ -295,3 +295,12 @@ int main()
     s += "World.";
     std::cout << s;
 }
+add a character to our string using the += operator:
+#include <iostream>
+#include <string>
+int main()
+{
+    std::string s = "Hello";
+    char c = '!';
+    s += c;
+}
