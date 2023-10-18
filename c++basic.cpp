@@ -285,5 +285,13 @@ int main()
     std::string s = "Hello World.";
     std::cout << s;
 }
-
-
+Concatenating Strings
+compound operator += :
+#include <iostream>
+#include <string>
+int main()
+{
+    std::string s = "Hello ";
+    s += "World.";
+    std::cout << s;
+}
