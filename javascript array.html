@@ -6,7 +6,12 @@
 <p id="demo"></p> <!--id  attribute set to demo will display inforation in javascript-->
 <script>
 const cars = ["Saab", "Volvo", "BMW"];
-document.getElementById("demo").innerHTML = cars; //This line uses JavaScript to select the HTML element with the id "demo" (the <p> element). It then sets the innerHTML property of that element to the content of the cars array. Since the cars array is an array of strings, the elements are joined into a single string, separated by commas, and displayed in the <p> element
+document.getElementById("demo").innerHTML = cars;
+const cars = [];
+cars[0]= "Saab";
+cars[1]= "Volvo";
+cars[2]= "BMW";
+document.getElementById("demo").innerHTML = cars;//This line uses JavaScript to select the HTML element with the id "demo" (the <p> element). It then sets the innerHTML property of that element to the content of the cars array. Since the cars array is an array of strings, the elements are joined into a single string, separated by commas, and displayed in the <p> element
 </script>
 </body>
 </html>
