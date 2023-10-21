@@ -327,4 +327,5 @@ int main()
     char c4 = s.at(6);     // 'W';
     std::cout << "First character: " << c1 << ", sixth character: " << c3;
 }
-Individual characters of a string can be 
+Comparing Strings
+A string can be compared to string literals and other strings using the equality == operator. 
