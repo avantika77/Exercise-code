@@ -341,3 +341,15 @@ int main()
     char c4 = s.at(6);     // 'W';
     std::cout << "First character: " << c1 << ", sixth character: " << c3;
 }
+Comparing Strings
+A string can be compared to string literals and other strings using the equality == operator.
+#include <iostream>
+#include <string>
+int main()
+{
+    std::string s1 = "Hello";
+    if (s1 == "Hello")
+    {
+        std::cout << "The string is equal to \"Hello\"";
+    }
+} 
