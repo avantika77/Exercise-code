@@ -353,3 +353,19 @@ int main()
         std::cout << "The string is equal to \"Hello\"";
     }
 } 
+Comparing a string to another string is done using the equality operator ==:
+#include <iostream>
+#include <string>
+int main()
+{
+    std::string s1 = "Hello";
+    std::string s2 = "World.";
+    if (s1 == s2)
+    {
+        std::cout << "The strings are equal.";
+    }
+    else
+    {
+        std::cout << "The strings are not equal.";
+    }
+}
