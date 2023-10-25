@@ -369,3 +369,5 @@ int main()
         std::cout << "The strings are not equal.";
     }
 }
+String Input
+Preferred way of accepting a string from the standard input is via the std::getline function which takes std::cin and our string as parameters
