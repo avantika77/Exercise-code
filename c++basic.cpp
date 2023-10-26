@@ -371,3 +371,10 @@ int main()
 }
 String Input
 Preferred way of accepting a string from the standard input is via the std::getline function which takes std::cin and our string as parameters
+#include <iostream>
+#include <string>
+int main()
+{
+    std::string s;
+    std::cout << "Please enter a string: ";
+    std::getline(std::cin, s);
