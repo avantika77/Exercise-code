@@ -386,3 +386,14 @@ The std::getline function has the following signature: std::getline(read_from, i
 
 A rule of thumb: if we need to use the std::string type, include the <string> header explicitly.
 
+A Pointer to a String
+A string has a member function .c_str() which returns a pointer to its first element. It is also said it returns a pointer to a null-terminated character array our string is made of:
+#include <iostream>
+#include <string>
+int main()
+{
+    std::string s = "Hello World.";
+    std::cout << s.c_str();
+}
+This member function is of type const char* and is useful when we want to pass our std::string variable to a function accepting a const char* parameter.
+
