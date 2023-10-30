@@ -403,3 +403,7 @@ To create a substring from a string, we use the .substr() member function. The f
 int main()
 {
     std::string
+std::string s = "Hello World.";
+    std::string mysubstring = s.substr(6, 5);
+    std::cout << "The substring value is: " << mysubstring;
+}
