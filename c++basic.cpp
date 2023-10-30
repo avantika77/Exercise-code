@@ -398,3 +398,8 @@ int main()
 This member function is of type const char* and is useful when we want to pass our std::string variable to a function accepting a const char* parameter.
 Substrings
 To create a substring from a string, we use the .substr() member function. The function returns a substring that starts at a certain position in the main string and is of a certain length. The signature of the function is: .substring(starting_position, length).
+#include <iostream>
+#include <string>
+int main()
+{
+    std::string
