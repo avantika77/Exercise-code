@@ -407,3 +407,9 @@ std::string s = "Hello World.";
     std::string mysubstring = s.substr(6, 5);
     std::cout << "The substring value is: " << mysubstring;
 }
+Finding a Substring
+To find a substring in a string, we use the .find() member function. It searches for the substring in a string. 
+If the substring is found, the function returns the position of the first found substring.
+This position is the position of a character where the substring starts in the main string.
+If the substring is not found, the function returns a value that is std::string::npos.
+The function itself is of type std::string::size_type.
