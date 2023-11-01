@@ -413,3 +413,18 @@ If the substring is found, the function returns the position of the first found 
 This position is the position of a character where the substring starts in the main string.
 If the substring is not found, the function returns a value that is std::string::npos.
 The function itself is of type std::string::size_type.
+#include <iostream>
+#include <string>
+int main()
+{
+    std::string s = "This is a Hello World string.";
+    std::string stringtofind = "Hello";
+    std::string::size_type found = s.find(stringtofind);
+    if (found != std::string::npos)
+    {
+        std::cout << "Substring found at position: " << found;
+    }
+    else
+    {
+        std::cout << "The substring is not found.";
+    
