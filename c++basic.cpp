@@ -427,4 +427,4 @@ int main()
     else
     {
         std::cout << "The substring is not found.";
-    
+    he main string and a substring we want to find. We supply the substring to the .find() function as an argument. We store the function’s return value to a variable found. Then we check the value of this variable. If the value is not equal to std::string::npos, the substring was found. We print the message and the position of a character in the main string, where our substring was found
