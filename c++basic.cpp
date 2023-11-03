@@ -434,3 +434,5 @@ Automatic Type Deduction -------------------
 The auto specifier deduces the type of an object based on the object’s initializer type.
 Example:
 auto c = 'a';   (example deduces c to be of type char as the initializer 'a' is of type char.)
+auto x = 123;    // int type
+Here, the compiler deduces the x to be of type int because an integer literal 123 is of type int.
