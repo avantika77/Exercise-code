@@ -1,3 +1,4 @@
+
 // c++ basic
 #include <iostream> //header file--------------------------------------------------------------------------------------------
 int main()
@@ -428,3 +429,8 @@ int main()
     {
         std::cout << "The substring is not found.";
     he main string and a substring we want to find. We supply the substring to the .find() function as an argument. We store the function’s return value to a variable found. Then we check the value of this variable. If the value is not equal to std::string::npos, the substring was found. We print the message and the position of a character in the main string, where our substring was found
+
+Automatic Type Deduction -------------------
+The auto specifier deduces the type of an object based on the object’s initializer type.
+Example:
+auto c = 'a';   (example deduces c to be of type char as the initializer 'a' is of type char.)
