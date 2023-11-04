@@ -442,3 +442,8 @@ int main()
     int x = 123;
     auto& y = x; // y is of int& type
 }
+int main()
+{
+    const auto x = 123; // x is of const int type
+}
+We use the auto specifier when the type (name) is hard to deduce manually or cumbersome to type due to the length.
