@@ -436,3 +436,9 @@ Example:
 auto c = 'a';   (example deduces c to be of type char as the initializer 'a' is of type char.)
 auto x = 123;    // int type
 Here, the compiler deduces the x to be of type int because an integer literal 123 is of type int.
+auto d = 123.456 / 789.10;    // double
+int main()
+{
+    int x = 123;
+    auto& y = x; // y is of int& type
+}
