@@ -7,3 +7,12 @@ int main()
     arr[4] = 3.14;
     std::cout << "The first array element is: " << arr[0] << '\n';
     std::cout << "The last array element is: " << arr[4] << '\n';
+Pointer to an Object------------------------------
+Write a program that defines an object of type double. Define a pointer that points to that object. Print the value of the pointed-to object by dereferencing a pointer.
+#include <iostream>
+int main()
+{
+    double d = 3.14;
+    double* p = &d;
+    std::cout << "The value of the pointed-to object is: " << *p;
+}
