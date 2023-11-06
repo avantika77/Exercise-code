@@ -16,3 +16,10 @@ int main()
     double* p = &d;
     std::cout << "The value of the pointed-to object is: " << *p;
 }
+Reference Type
+ a program that defines an object of type double called mydouble. Define an object of reference type called myreference and initialize it with mydouble. Change the value of myreference. Print the object value using both the reference and the original variable. Change the value of mydouble. Print the value of both objects.
+#include <iostream>
+int main()
+{
+    double mydouble = 3.14;
+    double& myreference = mydouble;
