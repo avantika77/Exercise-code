@@ -28,3 +28,14 @@ myreference = 6.28;
     mydouble = 9.45;
     std::cout << "The values are: " << mydouble << " and " << myreference << '\n';
 }
+Strings
+Write a program that defines two strings. Join them together and assign the result to a third-string. Print out the value of the resulting string.
+#include <iostream>
+#include <string>
+int main()
+{
+    std::string s1 = "Hello";
+    std::string s2 = " World!";
+    std::string s3 = s1 + s2;
+    std::cout << "The resulting string is: " << s3;
+}
