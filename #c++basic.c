@@ -39,3 +39,9 @@ int main()
     std::string s3 = s1 + s2;
     std::cout << "The resulting string is: " << s3;
 }
+Strings from Standard Input
+Write a program that accepts the first and the last name from the standard input using the std::getline function. Store the input in a single string called fullname. Print out the string.
+#include <iostream>
+#include <string>
+int main()
+{
