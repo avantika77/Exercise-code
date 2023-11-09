@@ -45,3 +45,9 @@ Write a program that accepts the first and the last name from the standard input
 #include <string>
 int main()
 {
+
+    std::string fullname;
+    std::cout << "Please enter the first and the last name: ";
+    std::getline(std::cin, fullname);
+    std::cout << "Your name is: " << fullname;
+}
