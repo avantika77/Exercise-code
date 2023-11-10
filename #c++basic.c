@@ -51,3 +51,8 @@ int main()
     std::getline(std::cin, fullname);
     std::cout << "Your name is: " << fullname;
 }
+Creating a Substring
+Write a program that creates two substrings from the main string.
+The main string is made up of first and last names and is equal to “John Doe.”
+The first substring is the first name. The second substring is the last name. 
+Print the main string and two substrings afterward.
