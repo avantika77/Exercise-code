@@ -59,3 +59,7 @@ Print the main string and two substrings afterward.
  #include <iostream>
 #include <iostream>
 int main()
+{
+    std::string fullname = "John Doe";
+    std::string firstname = fullname.substr(0, 4);
+    std::string lastname = fullname.substr(5, 3);
