@@ -70,3 +70,9 @@ int main()
     std::cout << "The first name is: " << firstname << '\n';
     std::cout << "The last name is: " << lastname << '\n';
 }
+Finding a single Character
+Write a program that defines the main string with a value of “Hello C++ World.” and checks if a single character ‘C’ is found in the main string.
+#include <iostream>
+#include <string>
+int main()
+{
