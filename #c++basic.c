@@ -76,3 +76,8 @@ Write a program that defines the main string with a value of “Hello C++ World.
 #include <string>
 int main()
 {
+std::string s = "Hello C++ World.";
+    std::string mysubstring = "C++";
+    auto mysubstringfound = s.find(mysubstring);
+    if (mysubstringfound != std::string::npos)
+    {
