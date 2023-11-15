@@ -88,3 +88,4 @@ std::cout << "Substring found at position: " << mysubstringfound << '\n';
         std::cout << "Substring was not found." << '\n';
     }
 }
+#Instead of typing the lengthy std::string::size_type type for our characterfound and mysubstringfound variables, we used the auto specifier to deduce the type for us automatically.
