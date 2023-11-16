@@ -89,3 +89,11 @@ std::cout << "Substring found at position: " << mysubstringfound << '\n';
     }
 }
 #Instead of typing the lengthy std::string::size_type type for our characterfound and mysubstringfound variables, we used the auto specifier to deduce the type for us automatically.
+Automatic Type Deduction
+Write a program that automatically deduces the type for char, int, and double objects based on the initializer used. Print out the values afterward.
+#include <iostream>
+int main()
+{
+    auto c = 'a';
+    auto x = 123;
+    auto d = 3.14;
