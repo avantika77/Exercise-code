@@ -110,3 +110,5 @@ int main()
     std::cout << "The type of x is deduced as int, the value is: " << x << '\n';
     std::cout << "The type of d is deduced as double, the value is: " << d << '\n';
 }
+Statements
+we described statements as commands, pieces of code that are executed in some order. Expressions ending with a semicolon are statements. C++ language comes with some built-in statements. We will start with the selection statements.
