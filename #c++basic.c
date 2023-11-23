@@ -114,3 +114,7 @@ Statements
 we described statements as commands, pieces of code that are executed in some order. Expressions ending with a semicolon are statements. C++ language comes with some built-in statements. We will start with the selection statements.
 Selection Statements
 Selection statements allow us to check to use conditions, and based on that condition, execute the appropriate statements.
+if Statement
+When we want to execute a statement or more statements based on some condition, we use the if-statement . if-statement has the format of:
+if (condition) statement
+The statement executes only if the condition is true. Example:
