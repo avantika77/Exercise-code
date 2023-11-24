@@ -118,3 +118,9 @@ if Statement
 When we want to execute a statement or more statements based on some condition, we use the if-statement . if-statement has the format of:
 if (condition) statement
 The statement executes only if the condition is true. Example:
+#include <iostream>
+int main()
+{
+    bool b = true;
+    if (b) std::cout << "The condition is true.";
+}
