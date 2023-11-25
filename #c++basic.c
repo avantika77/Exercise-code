@@ -124,3 +124,7 @@ int main()
     bool b = true;
     if (b) std::cout << "The condition is true.";
 }
+To execute multiple statements if the condition is true, we use the block scope {}:
+#include <iostream>
+int main()
+{
