@@ -127,4 +127,9 @@ int main()
 To execute multiple statements if the condition is true, we use the block scope {}:
 #include <iostream>
 int main()
-{
+{bool b = true;
+    if (b)
+    {
+        std::cout << "This is a first statement.";
+        std::cout << "\nThis is a second statement.";
+    }
