@@ -133,3 +133,5 @@ int main()
         std::cout << "This is a first statement.";
         std::cout << "\nThis is a second statement.";
     }
+if (condition) statement else statement
+If the condition is true, the first statement executes, otherwise the second statement after the else keyword executes.
