@@ -135,3 +135,8 @@ int main()
     }
 if (condition) statement else statement
 If the condition is true, the first statement executes, otherwise the second statement after the else keyword executes.
+#include <iostream>
+int m.ain()
+{
+    bool b = false;
+    if (b) std::cout << "The condition is true.";
