@@ -145,5 +145,9 @@ lse std::cout << "The condition is false.";
 To execute multiple statements in either if or else branch, we use brace-enclosed blocks {}:
 #include <iostream>
 int main()
-
+{
+    bool b = false;
+    if (b)
+    {
+        std::cout << "The condition is true.";
 
