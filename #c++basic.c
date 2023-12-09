@@ -150,4 +150,8 @@ int main()
     if (b)
     {
         std::cout << "The condition is true.";
-
+ std::cout << "\nThis is the second statement.";
+    }
+    else
+    {
+        std::cout << "The condition is false.";
