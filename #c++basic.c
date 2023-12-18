@@ -155,4 +155,5 @@ int main()
     else
     {
         std::cout << "The condition is false.";
-#####################################################
+he conditional expression is of the following syntax:
+(condition) ? expression_1 : expression_2
