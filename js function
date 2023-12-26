@@ -12,3 +12,22 @@
     <body>  
     </body>  
     </html>  
+
+    <html>  
+    <head>  
+    <script type = "text/javascript">  
+    functionsayhi() {  
+    document.write ("Hello there!");  
+             }  
+    </script>  
+      
+    </head>  
+      
+    <body>  
+    <p>Click the given button to call the function</p>  
+    <form>  
+    <input type = "button" onclick = "sayhi()" value = "Say Hello">  
+    </form>  
+      
+    </body>  
+    </html>  
