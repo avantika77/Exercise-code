@@ -1,0 +1,14 @@
+    <html>  
+    <head>  
+        <title>Functions!!!</title>  
+        <script type="text/javascript">  
+    functionmyfirstFunction()  
+          {  
+        document.write("This is just a simple user-defined  function.<br />");  
+          }  
+            myfirstFunction();  
+        </script>  
+    </head>  
+    <body>  
+    </body>  
+    </html>  
