@@ -44,3 +44,6 @@ const mycar = {
 console.log(mycar.make); // "Honda"
 myFunc(mycar);
 console.log(mycar.make); // "Toyota"
+
+
+
