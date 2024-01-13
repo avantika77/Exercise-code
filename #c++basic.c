@@ -1,4 +1,4 @@
-_______________________
+ye to_______________________
 //Write a program that defines and initializes an array of five doubles. Change and print the values of the first and last array elements.
 #include <iostream>
 int main()
@@ -159,3 +159,4 @@ int main()
 he conditional expression is of the following syntax:
 (condition) ? expression_1 : expression_2
 
+________________________________________
