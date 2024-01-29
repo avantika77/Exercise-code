@@ -28,10 +28,11 @@ int main()
     std::cout << "Subtraction:" << num1 - num2 << endl;
     std::cout << "Division:" << num1 / num2 << endl;
     std::cout << "Product:" << num1 * num2 << endl;
-    std::cout << "greater than: " << (num1 > num2) << " False" << std::endl;
-    std::cout << "Less than: " << (num1 < num2) << " True" << std::endl;
+    std::cout << "greater than: " << (num1 > num2) << "True" << std::endl;
+    std::cout << "Less than: " << (num1 < num2) << " False" << std::endl;
     std::cout << "greater than equal to: " << (num1 >= num2) << " False" << std::endl;
-    std::cout << "Less than equal to: " << (num1 <= num2) << " True" << std::endl;
+    std::cout << "Less than equal to: " << (num1 <= num2) << "False" << std::endl;
+}
     //   if (num1 < num2)
     //   {
     //     std::cout << "False "<< std::endl;
@@ -49,4 +50,3 @@ int main()
     //   {
     //     std::cout << "True" << endl;
     //   }
-}
