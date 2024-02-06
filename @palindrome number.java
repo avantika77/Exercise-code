@@ -1,4 +1,4 @@
- import java.util.Scanner; //Imports the Scanner class from the java.util package, which is used for taking user input
+hi import java.util.Scanner; //Imports the Scanner class from the java.util package, which is used for taking user input
 
 class PalindromeExample //class named {
     public static void main(String args[]) { //Entry point of the program.
@@ -30,4 +30,4 @@ class PalindromeExample //class named {
 Enter a number to check for palindrome:
 787
 Palindrome number
-________________________________________
+_______________________________________________________
