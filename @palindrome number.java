@@ -30,4 +30,4 @@ class PalindromeExample //class named {
 Enter a number to check for palindrome:
 787
 Palindrome number
-_______________________________________________________
+_________________________________________________________________________
