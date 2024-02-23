@@ -30,5 +30,10 @@
 🔸In languages like Java, strings are immutable, meaning once a string object is created, its value cannot be changed.
 🔸Any operation that appears to modify a string actually creates a new string object with the modified value, leaving the original string unchanged
 ============================================================================================================================================================
-Output:
+This program illustrates the immutability of strings in Java. 
+Despite performing string concatenation, the original string object remains unchanged, and a new string object is created to hold the 
+    concatenated value.
+=============================================================================================================================================================  
+    
+    Output:
 Strings are immutable.
