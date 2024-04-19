@@ -18,8 +18,6 @@ public:
         }
         nums[5] = (rand() % 26) + 1; // Random number between 1 and 26
     }
-
-    // Member function to display lottery numbers
     void getLotto() {
         cout << "Your lottery numbers are: " << endl;
         for (int i = 0; i < 6; i++) {
