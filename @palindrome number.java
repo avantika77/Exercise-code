@@ -1,5 +1,4 @@
-hi import java.util.Scanner; //Imports the Scanner class from the java.util package, which is used for taking user input
-
+hi import java.util.Scanner; 
 class PalindromeExample //class named {
     public static void main(String args[]) { //Entry point of the program.
         String original, reverse = "";  // Declares two string variables, original to store the user input and reverse to store the reversed string.
